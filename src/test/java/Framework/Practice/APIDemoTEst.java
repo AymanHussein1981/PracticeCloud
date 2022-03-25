@@ -28,6 +28,7 @@ public class APIDemoTEst extends Base01Test{
 		driver.findElementByClassName("android.widget.EditText").sendKeys(input);
 		System.out.println("CELIA");
 		System.out.println("YOUSEF");
+		System.out.println("RAWAND");
 		//driver.findElementById("android:id/button1").click();
 		//driver.findElementByXPath("//android.widget.Button[@text='OK']").click();
 		driver.findElementsByClassName("android.widget.Button").get(1).click();

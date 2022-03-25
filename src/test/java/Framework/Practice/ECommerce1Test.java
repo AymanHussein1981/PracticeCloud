@@ -30,12 +30,12 @@ public class ECommerce1Test extends Base01Test  {
 		driver.findElementByXPath("//android.widget.TextView[@text='Algeria']").click();
 		driver.findElementById("com.androidsample.generalstore:id/btnLetsShop").click();
 		driver.findElementsByXPath("//*[@text='ADD TO CART']").get(1).click();
-		driver.findElementByAndroidUIAutomator("new UiScrollable(new UiSelector()).scrollIntoView(text(\"Jordan 6 Rings\"));");
+		driver.findElementByAndroidUIAutomator("new UiScrollable(new UiSelector()).scrollIntoView(text(\"Converse All Star\"));");
 		int count = driver.findElementsById("com.androidsample.generalstore:id/productName").size();
 		for (int i=0;i<count;i++)
 		{
 			String text = driver.findElementsById("com.androidsample.generalstore:id/productName").get(i).getText();
-			if (text.equalsIgnoreCase("Jordan 6 Rings"))
+			if (text.equalsIgnoreCase("Converse All Star"))
 			{
 		driver.findElementsById("com.androidsample.generalstore:id/productAddCart").get(i).click();
 			}
