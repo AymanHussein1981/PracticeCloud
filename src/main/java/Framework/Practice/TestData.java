@@ -10,7 +10,7 @@ public class TestData {
 		Object[][] obj=new Object[3][1];
 			obj[0][0]="CELIA";
 			obj[1][0]="YOUSEF";
-			obj[2][0]="RAWAND";
+			obj[2][0]="AYMAN";
 			
 			return obj;
 					
