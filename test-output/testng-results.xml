@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-03-23T16:05:26 CDT" name="Parallel Test Suite" finished-at="2022-03-23T16:06:16 CDT" duration-ms="50124">
+  <suite started-at="2022-03-25T16:31:56 CDT" name="Parallel Test Suite" finished-at="2022-03-25T16:33:10 CDT" duration-ms="74089">
     <groups>
     </groups>
-    <test started-at="2022-03-23T16:05:26 CDT" name="Ecommerce Test" finished-at="2022-03-23T16:06:10 CDT" duration-ms="44071">
+    <test started-at="2022-03-25T16:31:56 CDT" name="Ecommerce Test" finished-at="2022-03-25T16:32:32 CDT" duration-ms="35758">
       <class name="Framework.Practice.ECommerce1Test">
-        <test-method signature="Ecommerce()[pri:0, instance:Framework.Practice.ECommerce1Test@3bf9ce3e]" started-at="2022-03-23T16:05:26 CDT" name="Ecommerce" finished-at="2022-03-23T16:06:10 CDT" duration-ms="44005" status="PASS">
+        <test-method signature="Ecommerce()[pri:0, instance:Framework.Practice.ECommerce1Test@3bf9ce3e]" started-at="2022-03-25T16:31:56 CDT" name="Ecommerce" finished-at="2022-03-25T16:32:32 CDT" duration-ms="35683" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Ecommerce -->
       </class> <!-- Framework.Practice.ECommerce1Test -->
     </test> <!-- Ecommerce Test -->
-    <test started-at="2022-03-23T16:05:26 CDT" name="API Test" finished-at="2022-03-23T16:06:16 CDT" duration-ms="50124">
+    <test started-at="2022-03-25T16:31:56 CDT" name="API Test" finished-at="2022-03-25T16:33:10 CDT" duration-ms="74089">
       <class name="Framework.Practice.APIDemoTEst">
-        <test-method signature="APIDemo(java.lang.String)[pri:0, instance:Framework.Practice.APIDemoTEst@4b8ee4de]" started-at="2022-03-23T16:05:26 CDT" name="APIDemo" data-provider="InputData" finished-at="2022-03-23T16:05:50 CDT" duration-ms="23998" status="PASS">
+        <test-method signature="APIDemo(java.lang.String)[pri:0, instance:Framework.Practice.APIDemoTEst@4b8ee4de]" started-at="2022-03-25T16:31:56 CDT" name="APIDemo" data-provider="InputData" finished-at="2022-03-25T16:32:22 CDT" duration-ms="25661" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -26,11 +26,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- APIDemo -->
-        <test-method signature="APIDemo(java.lang.String)[pri:0, instance:Framework.Practice.APIDemoTEst@4b8ee4de]" started-at="2022-03-23T16:05:50 CDT" name="APIDemo" data-provider="InputData" finished-at="2022-03-23T16:06:16 CDT" duration-ms="26055" status="PASS">
+        <test-method signature="APIDemo(java.lang.String)[pri:0, instance:Framework.Practice.APIDemoTEst@4b8ee4de]" started-at="2022-03-25T16:32:22 CDT" name="APIDemo" data-provider="InputData" finished-at="2022-03-25T16:32:47 CDT" duration-ms="25132" status="PASS">
           <params>
             <param index="0">
               <value>
                 <![CDATA[YOUSEF]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- APIDemo -->
+        <test-method signature="APIDemo(java.lang.String)[pri:0, instance:Framework.Practice.APIDemoTEst@4b8ee4de]" started-at="2022-03-25T16:32:47 CDT" name="APIDemo" data-provider="InputData" finished-at="2022-03-25T16:33:10 CDT" duration-ms="23218" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[RAWAND]]>
               </value>
             </param>
           </params>

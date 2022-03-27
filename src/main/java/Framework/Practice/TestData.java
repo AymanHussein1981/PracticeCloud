@@ -7,10 +7,9 @@ public class TestData {
 	@DataProvider(name="InputData")
 	public Object[][] dataprovidertext()
 	{
-		Object[][] obj=new Object[3][1];
-			obj[0][0]="CELIA";
-			obj[1][0]="YOUSEF";
-			obj[2][0]="RAWAND";
+		Object[][] obj=new Object[2][1];
+			obj[0][0]="Ayman";
+			obj[1][0]="@#$%^";
 			
 			return obj;
 					
